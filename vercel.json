@@ -11,9 +11,9 @@
       "src": "/(.*)",
       "dest": "index.js"
     }
-  ]
+  ],
 
-  "name": "muffeez-portfolio",
+  "name": "subhendu-portfolio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
