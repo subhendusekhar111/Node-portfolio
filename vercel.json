@@ -2,18 +2,19 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.js", 
+      "src": "package.json", 
       "use": "@vercel/node"
     },
     {
-      "src": "angular.json", // Adjust the path accordingly
-      "use": "@vercel/static-build" // Use static-build for Angular projects
+      "src": ".angular.json",
+      "use": "@angular/cli"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "index.js"
+      "dest": "index.html"
     }
-  ]
+  ],
+
 }
